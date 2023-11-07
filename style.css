@@ -1,0 +1,131 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+}
+img {
+    display: block;
+}
+/* HEADER */
+.header{
+    border-bottom: 1px solid #E5E9F2;
+    height: 73px;
+    display: flex;
+    align-items: center;
+}
+.header-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 40px;
+}
+.nav {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    color: #18191F;
+}
+.nav-link {
+    color: #18191F;
+    text-decoration: none;
+    margin-right: 32px;
+}
+.nav-link:hover {
+    color: #8C30F5;
+}
+.nav-link:last-child {
+    margin-right: 0;
+}
+.appstore {
+    margin-left: auto;
+    display: flex;
+}
+.appstore-item:first-child {
+    margin-right: 12px;
+}
+
+/* MAIN */
+.main {
+
+}
+.main-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-top: 197px;
+    padding-bottom: 197px;
+}
+.main-content {
+    width: 540px;
+}
+.main-img {
+
+}
+.main-header {
+    margin-top: 0;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 1.36;
+    color: #18191F;
+    margin-bottom: 16px;
+}
+.button {
+    display: inline-block;
+    height: 62px;
+    background: #8C30F5;
+    border-radius: 8px;
+    padding: 0 35px;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 62px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.main-content p {
+    margin: 0;
+    margin-bottom: 32px;
+    color: #18191F;
+    font-size: 18px;
+    line-height: 1.78;
+}
+.button:hover {
+    opacity: 0.8;
+}
+/* FOOTER */
+.footer {
+    background-color: #0B0D17;
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+.footer-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-copyright {
+    font-size: 14px;
+    color: #D9DBE1;
+    align-items: center;
+}
+.footer-socials {
+    display: flex;
+}  
+.footer-item {
+    margin-right: 16px;
+} 
+.footer-item:last-child {
+    margin-right: 0;
+}
